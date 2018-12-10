@@ -1,0 +1,214 @@
+body, html {
+    height: 100%;
+    background-color: #ebebeb;
+}
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("header.jpg");
+    display: flex;
+    
+    background-color: #ebebeb;
+    max-width: 100%;
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .hero-image {
+        display: none;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #ebebeb;
+    padding: 0px; 
+    margin: none;
+    border: none;
+   	flex-wrap: wrap;
+}
+
+.navbar {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    background-color: #ebebeb;
+    padding: 0px;
+}
+
+.nav-item {
+    background-color: #ebebeb;
+}
+
+.navbar-nav {
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+.navbar-expand-lg {
+    background-color: #ebebeb;
+}
+
+.collapse {
+    text-align: center;
+}
+
+.navbar-toggler {
+    background-color: #5aa2a4;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: #574f88;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: #574f88;
+}
+
+.row {
+    display: flex;
+    padding: 20px;
+}
+
+.col-lg-8, footer {
+    border-top: solid;
+    border-width: 2px;
+}
+
+h1, footer {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+.sm-links {
+    text-align: center;
+    font-size: 45px;
+}
+
+.fas:hover {
+    opacity: 0.7;
+}
+
+.fab:hover {
+    opacity: 0.7;
+}
+
+.links {
+    font-size: 38px;
+    text-align: center;
+}
+
+.my-button {
+    display: flex;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+}
+
+.skills {
+    font-size: .4em;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #545454;
+}
+
+.images {
+    height: 450px;
+}
+
+.square {
+    height: 300px;
+}
+
+.squad {
+    height: 360px;
+}
+
+.lemon {
+    height: 225px;
+}
+
+.sage {
+    height: 214px;
+}
+
+.nicole {
+    height: 232px;
+}
+
+.mock-tee {
+    height: 240;
+}
+
+.cacti {
+    height: 212px;
+}
+
+.together, .knight {
+    height: 382px;
+}
+
+.fan {
+    height: 360px;
+}
+
+.cats {
+    height: 393px;
+}
+
+.images, .square, .squad, .lemon, .sage, .nicole, .mock-tee, .cacti, .together, .knight, .fan, .cats {
+    width: 300px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.pictures {
+    border-top: solid;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px; 
+    margin: none;
+    justify-content: space-around;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+.bg-light {
+    background-color: #ebebeb !important;
+}
+
