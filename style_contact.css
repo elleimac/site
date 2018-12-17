@@ -26,23 +26,8 @@ body, html {
     .hero-image {
         display: none;
     }
-    .col-4 {
-        display: none;
-    }
-    .col-lg-12 {
-        display: flex;
-        display: wrap;
-    }
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    background-color: #ebebeb;
-    padding: 0px; 
-    margin: none;
-    border: none;
-}
 
 .navbar {
     font-family: 'Merriweather', serif;
@@ -134,7 +119,6 @@ h1, h3, p {
     font-family: 'Merriweather', serif;
 }
 
-
 .skills {
     font-size: .4em;
 }
@@ -149,14 +133,60 @@ h1, h3, p {
     color: #545454;
 }
 
-img {
-    padding-top: 50px;
-}
-
 footer {
     padding-top: 20px;
 }
 
 .bg-light {
     background-color: #ebebeb !important;
+}
+
+.container {
+	border-top: solid;
+    border-width: 2px;
+	display: flex;
+	align-items: center;
+	font-family: 'Merriweather', serif;
+	padding: 50px;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+input[type=text], input[type=email], {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  opacity: 0.7;
+}
+
+.submit-btn {
+	display: flex;
+	justify-content: center;
 }
