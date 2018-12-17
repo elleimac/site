@@ -21,13 +21,15 @@ body, html {
     position: relative;
 }
 
+  .projects {
+        flex-wrap: wrap;
+    }
+
 @media screen and (max-width: 600px) {
     .hero-image {
         display: none;
     }
-    .projects {
-        flex-wrap: wrap;
-    }
+  
 }
 
 .container {
